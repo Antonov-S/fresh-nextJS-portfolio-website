@@ -25,7 +25,10 @@ export default function Intro() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: "tween", diration: 0.2 }}
+            transition={{
+              type: "tween",
+              duration: 0.2
+            }}
           >
             <Image
               src="/IMG_099222222.jpg"
