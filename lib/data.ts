@@ -34,7 +34,7 @@ export const links = [
     name: "Contact",
     hash: "#contact"
   }
-] as const;
+];
 
 export const experiencesData = [
   {
@@ -122,7 +122,7 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2024 - at present"
   }
-] as const;
+];
 
 export const projectsData = [
   {
@@ -174,7 +174,7 @@ export const projectsData = [
     imageUrl: rmtdevImg,
     url: "https://velvety-sunflower-91c517.netlify.app"
   }
-] as const;
+];
 
 export const skillsData = [
   "HTML",
@@ -186,4 +186,4 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Prisma"
-] as const;
+];
