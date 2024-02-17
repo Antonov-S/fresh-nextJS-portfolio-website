@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 import corpcommentImg from "@/public/corpcomment.png";
@@ -39,28 +38,89 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Manual QA Intern",
+    location: "Sofia, Bulgaria",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019"
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Two months internship program participating in a real-world project for online tool that grant access to trading information and regulations. Is it the first personal contact with IT that sparked my interest towards programming.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021"
+    date: "11/2019 - 01/2020"
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present"
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "Programming with C#",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020"
+  },
+  {
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "JS Advanced – September 2021",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021"
+  },
+  {
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "JS Applications - February 2022",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022"
+  },
+  {
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "JS Back-End - May 2022",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022"
+  },
+  {
+    title: "Brad Schiff",
+    location: "udemy.com",
+    description: "React For The Rest Of Us",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022"
+  },
+  {
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "ReactJS - June 2022",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022"
+  },
+  {
+    title: "ByteGrad by Wesley",
+    location: "udemy.com",
+    description: "Professional CSS 2023 (Flexbox & Grid & Animations & More)",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023"
+  },
+  {
+    title: "Brad Traversy",
+    location: "udemy.com",
+    description: "Modern HTML & CSS From The Beginning (Including Sass)",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023"
+  },
+  {
+    title: "DevelopedbyEd",
+    location: "developedbyed.com",
+    description: "The Creative React and Redux Course",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023"
+  },
+  {
+    title: "ByteGrad",
+    location: "bytegrad.com",
+    description: "Professional React & Next.js",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - at present"
+  },
+  {
+    title: "SoftUni",
+    location: "Sofia, Bulgaria",
+    description: "HTML & CSS",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - at present"
   }
 ] as const;
 
@@ -119,11 +179,11 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "SCSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Git",
-  "Tailwind",
   "Prisma"
 ] as const;
