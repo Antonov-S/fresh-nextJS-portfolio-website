@@ -34,7 +34,7 @@ export const links = [
     name: "Contact",
     hash: "#contact"
   }
-];
+] as const;
 
 export const experiencesData = [
   {
@@ -43,7 +43,7 @@ export const experiencesData = [
     description:
       "Two months internship program participating in a real-world project for online tool that grant access to trading information and regulations. Is it the first personal contact with IT that sparked my interest towards programming.",
     icon: React.createElement(CgWorkAlt),
-    date: "11/2019 - 01/2020"
+    date: "2019"
   },
   {
     title: "SoftUni",
@@ -122,7 +122,7 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2024 - at present"
   }
-];
+] as const;
 
 export const projectsData = [
   {
@@ -174,7 +174,7 @@ export const projectsData = [
     imageUrl: rmtdevImg,
     url: "https://velvety-sunflower-91c517.netlify.app"
   }
-];
+] as const;
 
 export const skillsData = [
   "HTML",
@@ -186,4 +186,4 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Prisma"
-];
+] as const;

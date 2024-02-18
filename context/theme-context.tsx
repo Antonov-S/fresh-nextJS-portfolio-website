@@ -15,7 +15,9 @@ type ThemeContextType = {
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
 
-export default function ThemeContextProvider({ children }: ThemeContextProviderProps) {
+export default function ThemeContextProvider({
+  children,
+}: ThemeContextProviderProps) {
   const [theme, setTheme] = useState<Theme>("light");
 
   const toggleTheme = () => {
@@ -49,7 +51,7 @@ export default function ThemeContextProvider({ children }: ThemeContextProviderP
     <ThemeContext.Provider
       value={{
         theme,
-        toggleTheme
+        toggleTheme,
       }}
     >
       {children}
