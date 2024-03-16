@@ -8,6 +8,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import wavesImg from "@/public/waves.png";
 import igniteImg from "@/public/ignite.png";
 import captureImg from "@/public/capture.png";
+import eventoImg from "@/public/evento.png";
 
 export const links = [
   {
@@ -173,8 +174,16 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "React-Query", "CSS", "HTML"],
     imageUrl: rmtdevImg,
     url: "https://velvety-sunflower-91c517.netlify.app"
+  },
+  {
+    title: "Evento",
+    description:
+      "Evento is a dummy dashboard for events. It is open to everyone who needs to find and shere events.",
+    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    imageUrl: eventoImg,
+    url: "https://evento-app-ten.vercel.app/"
   }
-] as const;
+];
 
 export const skillsData = [
   "HTML",
@@ -185,5 +194,6 @@ export const skillsData = [
   "React",
   "Next.js",
   "Git",
+  "RESTful API",
   "Prisma"
 ] as const;
