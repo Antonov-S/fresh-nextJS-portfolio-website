@@ -9,6 +9,7 @@ import wavesImg from "@/public/waves.png";
 import igniteImg from "@/public/ignite.png";
 import captureImg from "@/public/capture.png";
 import eventoImg from "@/public/evento.png";
+import lmsImg from "@/public/lms.png";
 
 export const links = [
   {
@@ -174,6 +175,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "React-Query", "CSS", "HTML"],
     imageUrl: rmtdevImg,
     url: "https://velvety-sunflower-91c517.netlify.app"
+  },
+  {
+    title: "Learning Management Platform",
+    description:
+      "This is a Learning Management System (Udemy Clone) build with Next 13 with the App Router, Prisma as an ORM, Stripe for payments, etc",
+    tags: ["Tailwind CSS", "React.js", "Next.js", "Prisma", "MySQL"],
+    imageUrl: lmsImg,
+    url: "https://learning-management-app-f6kp.vercel.app"
   },
   {
     title: "Evento",
