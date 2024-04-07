@@ -144,7 +144,7 @@ export const projectsData = [
     url: "https://earnest-souffle-0e7c4a.netlify.app/"
   },
   {
-    title: "Capture Portofolio",
+    title: "Capture Portfolio",
     description:
       "Dummy portfolio app with dynamic content and some interesting styles.",
     tags: ["react-intersection-observer", "React", "styled-components"],
