@@ -116,12 +116,26 @@ export const experiencesData = [
     location: "bytegrad.com",
     description: "Professional React & Next.js",
     icon: React.createElement(LuGraduationCap),
+    date: "2024"
+  },
+  {
+    title: "DevelopedbyEd",
+    location: "developedbyed.com",
+    description: "Ultimate Next.js Course 2024 Edition",
+    icon: React.createElement(LuGraduationCap),
     date: "2024 - at present"
   },
   {
     title: "SoftUni",
     location: "Sofia, Bulgaria",
     description: "HTML & CSS",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - at present"
+  },
+  {
+    title: "zing7",
+    location: "Sofia, Bulgaria",
+    description: "Full Stack Web Development - summer academy",
     icon: React.createElement(LuGraduationCap),
     date: "2024 - at present"
   }
@@ -211,14 +225,18 @@ export const projectsData = [
 ];
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "SCSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
+  "JavaScript (ES6+)",
+  "React.js",
   "Next.js",
-  "Git",
-  "RESTful API",
-  "Prisma"
+  "Typescript",
+  "Prisma",
+  "Tailwind CSS",
+  "shadcn/ui",
+  "Zustand",
+  "Redux",
+  "styled components",
+  "Framer Motion",
+  "SCSS",
+  "Axios",
+  "Git"
 ] as const;
