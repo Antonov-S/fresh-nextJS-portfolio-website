@@ -10,6 +10,7 @@ import igniteImg from "@/public/ignite.png";
 import captureImg from "@/public/capture.png";
 import eventoImg from "@/public/evento.png";
 import lmsImg from "@/public/lms.png";
+import petSoft from "@/public/petSoft.png";
 
 export const links = [
   {
@@ -191,6 +192,21 @@ export const projectsData = [
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
     imageUrl: eventoImg,
     url: "https://evento-app-ten.vercel.app/"
+  },
+  {
+    title: "PetSoft",
+    description:
+      "Next.js 13 project with full CRUD, optimistic UI, server actions, auth, payments, and more!",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth"
+    ],
+    imageUrl: petSoft,
+    url: "https://petsoft-app-eta.vercel.app/"
   }
 ];
 
