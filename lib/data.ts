@@ -11,6 +11,10 @@ import captureImg from "@/public/capture.png";
 import eventoImg from "@/public/evento.png";
 import lmsImg from "@/public/lms.png";
 import petSoft from "@/public/petSoft.png";
+import pokebase from "@/public/pokebase.jpg";
+import sprout from "@/public/sprout&scribble.png";
+import strings from "@/public/strings.png";
+import newtube from "@/public/newTube.png";
 
 export const links = [
   {
@@ -143,74 +147,51 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Word Analytics",
+    title: "New Tube",
     description:
-      "Copy and paste your text into the online editor - it shows word count, character count and social media post limits. Inspired by wordcounter.net",
-    tags: ["React", "Vite", "CSS", "HTML"],
-    imageUrl: wordanalyticsImg,
-    url: "https://main--glittering-capybara-b697a7.netlify.app"
+      "YouTube clone with custom video player, AI-generated metadata, comment threads, and playlist support.",
+    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Drizzle ORM", "TRPC"],
+    imageUrl: newtube,
+    url: "https://new-tube-mu.vercel.app",
+    githubUrl: "https://github.com/Antonov-S/youtube-clone-next15"
   },
   {
-    title: "Waves Music",
+    title: "LinkedIn Prototype",
     description:
-      "A simple music app (play/stop, next, previous track, library) with some interesting stylings. The app depends on chillhop.com (third party free music source).",
-    tags: ["React", "Vite", "uuid", "Font Awesome", "CSS", "HTML"],
-    imageUrl: wavesImg,
-    url: "https://earnest-souffle-0e7c4a.netlify.app/"
+      "A prototype focusing on LinkedIn’s essential features: feed, profiles, and connections — built with server components and tRPC.",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Drizzle ORM",
+      "Mantine UI"
+    ],
+    imageUrl: strings,
+    url: "https://linked-in-prototype.vercel.app",
+    githubUrl: "https://github.com/Antonov-S/network-app-next14"
   },
   {
-    title: "Capture Portfolio",
+    title: "Sprout and Scribble",
     description:
-      "Dummy portfolio app with dynamic content and some interesting styles.",
-    tags: ["react-intersection-observer", "React", "styled-components"],
-    imageUrl: captureImg,
-    url: "https://meek-kitten-2638d2.netlify.app"
+      "Full-stack e-commerce platform built with Stripe, Drizzle ORM, and modern Next.js features.",
+    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Drizzle ORM", "Zustand"],
+    imageUrl: sprout,
+    url: "https://www.sproutnext.store",
+    githubUrl: "https://github.com/Antonov-S/e-commerce-next14-app"
   },
   {
-    title: "Ignite - Games library",
+    title: "Pokebase",
     description:
-      "Games library app. It consume free third party API data and provides the user the ability to search from thousands of current and upcoming games.",
-    tags: ["styled-components", "React", "Redux", "framer-motion"],
-    imageUrl: igniteImg,
-    url: "https://capable-chebakia-5d3b72.netlify.app"
-  },
-  {
-    title: "CorpComment",
-    description:
-      "Public feedback tool, users can give public feedback to companies.",
-    tags: ["React", "Vite", "Zustand", "Radix Icons", "CSS", "HTML"],
-    imageUrl: corpcommentImg,
-    url: "https://joyful-biscuit-9a382f.netlify.app"
-  },
-  ,
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. It has features like data caching(searches, bookmarks, etc...), persisting data in localStorage, filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "React-Query", "CSS", "HTML"],
-    imageUrl: rmtdevImg,
-    url: "https://velvety-sunflower-91c517.netlify.app"
-  },
-  {
-    title: "Learning Management Platform",
-    description:
-      "This is a Learning Management System (Udemy Clone) build with Next 13 with the App Router, Prisma as an ORM, Stripe for payments, etc",
-    tags: ["Tailwind CSS", "React.js", "Next.js", "Prisma", "MySQL"],
-    imageUrl: lmsImg,
-    url: "https://learning-management-app-f6kp.vercel.app"
-  },
-  {
-    title: "Evento",
-    description:
-      "Evento is a dummy dashboard for events. It is open to everyone who needs to find and shere events.",
-    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
-    imageUrl: eventoImg,
-    url: "https://evento-app-ten.vercel.app/"
+      "Pokémon browser app using PokéAPI. Built during Zing7’s summer training program.",
+    tags: ["TypeScript", "Next.js", "Tailwind CSS"],
+    imageUrl: pokebase,
+    url: "https://pokebase-task-3-zing7.vercel.app/",
+    githubUrl: "https://github.com/Antonov-S/pokebase-task-3-zing7"
   },
   {
     title: "PetSoft",
     description:
-      "Next.js 13 project with full CRUD, optimistic UI, server actions, auth, payments, and more!",
+      "Full-featured app with CRUD operations, payments, authentication and optimistic UI using Next.js 13.",
     tags: [
       "TypeScript",
       "Next.js",
@@ -220,7 +201,80 @@ export const projectsData = [
       "NextAuth"
     ],
     imageUrl: petSoft,
-    url: "https://petsoft-app-eta.vercel.app/"
+    url: "https://petsoft-app-eta.vercel.app/",
+    githubUrl: "https://github.com/Antonov-S/petsoft-app"
+  },
+  {
+    title: "Evento",
+    description:
+      "Event discovery dashboard with create/share capabilities. Built with Next.js, Prisma, and Tailwind.",
+    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    imageUrl: eventoImg,
+    url: "https://evento-app-ten.vercel.app/",
+    githubUrl: "https://github.com/Antonov-S/evento-app"
+  },
+  {
+    title: "Learning Management Platform",
+    description:
+      "Udemy-style LMS built with Next.js 13, Stripe payments, course upload, and user dashboard.",
+    tags: ["Tailwind CSS", "React.js", "Next.js", "Prisma", "MySQL"],
+    imageUrl: lmsImg,
+    url: "https://learning-management-app-f6kp.vercel.app",
+    githubUrl: "https://github.com/Antonov-S/learning-management-app"
+  },
+  {
+    title: "rmtDev",
+    description:
+      "Remote developer job board with filtering, bookmarks, pagination, and persistent local storage.",
+    tags: ["React", "TypeScript", "Next.js", "React-Query", "CSS", "HTML"],
+    imageUrl: rmtdevImg,
+    url: "https://velvety-sunflower-91c517.netlify.app",
+    githubUrl: "https://github.com/Antonov-S/rmtDev-app"
+  },
+  {
+    title: "CorpComment",
+    description:
+      "Public feedback app where users can leave company reviews and ratings.",
+    tags: ["React", "Vite", "Zustand", "Radix Icons", "CSS", "HTML"],
+    imageUrl: corpcommentImg,
+    url: "https://joyful-biscuit-9a382f.netlify.app",
+    githubUrl: "https://github.com/Antonov-S/corp-comment-app"
+  },
+  {
+    title: "Ignite - Games Library",
+    description:
+      "Search and explore upcoming games using free API data. Built with Redux and framer-motion.",
+    tags: ["styled-components", "React", "Redux", "framer-motion"],
+    imageUrl: igniteImg,
+    url: "https://capable-chebakia-5d3b72.netlify.app",
+    githubUrl: "https://github.com/Antonov-S/ignite-games-library-app"
+  },
+  {
+    title: "Capture Portfolio",
+    description:
+      "Interactive portfolio demo with dynamic animations and intersection observers.",
+    tags: ["react-intersection-observer", "React", "styled-components"],
+    imageUrl: captureImg,
+    url: "https://meek-kitten-2638d2.netlify.app",
+    githubUrl: "https://github.com/Antonov-S/capture-portofolio-app"
+  },
+  {
+    title: "Waves Music",
+    description:
+      "Minimal music player using audio from Chillhop. Features include play, pause, skip, and library.",
+    tags: ["React", "Vite", "uuid", "Font Awesome", "CSS", "HTML"],
+    imageUrl: wavesImg,
+    url: "https://earnest-souffle-0e7c4a.netlify.app/",
+    githubUrl: "https://github.com/Antonov-S/music-app-react"
+  },
+  {
+    title: "Word Analytics",
+    description:
+      "Text analysis tool that shows word and character count. Inspired by wordcounter.net.",
+    tags: ["React", "Vite", "CSS", "HTML"],
+    imageUrl: wordanalyticsImg,
+    url: "https://main--glittering-capybara-b697a7.netlify.app",
+    githubUrl: "https://github.com/Antonov-S/word-analytics-app"
   }
 ];
 
