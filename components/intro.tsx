@@ -63,12 +63,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Svetlozar.</span> I'm a{" "}
-        <span className="font-bold">tech enthusiast</span>{" "}
-        <span className="font-bold">
-          with positive thinking, responsibility, hardworking and creativity.
-        </span>{" "}
-        I enjoy building <span className="italic">sites & apps</span>. My focus
-        is <span className="underline">React(Next.js)</span>.
+        <span className="font-bold">tech enthusiast</span> focused on building{" "}
+        <span className="italic">modern web applications</span> with{" "}
+        <span className="underline">Next.js (React)</span>, emphasizing{" "}
+        <span className="font-medium">performance</span> and{" "}
+        <span className="font-medium">real-world use cases</span>.
       </motion.h1>
 
       <motion.div
@@ -93,20 +92,20 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/SvetlozarAntonov_CV_junior_web_dev.pdf"
+          href="/s_antonov_junior_web_dev.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

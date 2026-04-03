@@ -2,19 +2,20 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import wavesImg from "@/public/waves.png";
-import igniteImg from "@/public/ignite.png";
-import captureImg from "@/public/capture.png";
-import eventoImg from "@/public/evento.png";
+import echo from "@/public/echo.png";
 import lmsImg from "@/public/lms.png";
+import wavesImg from "@/public/waves.png";
 import petSoft from "@/public/petSoft.png";
-import pokebase from "@/public/pokebase.jpg";
-import sprout from "@/public/sprout&scribble.png";
 import strings from "@/public/strings.png";
 import newtube from "@/public/newTube.png";
+import eventoImg from "@/public/evento.png";
+import igniteImg from "@/public/ignite.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import pokebase from "@/public/pokebase.jpg";
+import captureImg from "@/public/capture.png";
+import sprout from "@/public/sprout&scribble.png";
+import corpcommentImg from "@/public/corpcomment.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -30,7 +31,7 @@ export const links = [
     hash: "#projects"
   },
   {
-    name: "Skills",
+    name: "Tech",
     hash: "#skills"
   },
   {
@@ -45,112 +46,69 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Manual QA Intern",
+    title: "Web Development Trainee - Zing7 Ltd",
     location: "Sofia, Bulgaria",
     description:
-      "Two months internship program participating in a real-world project for online tool that grant access to trading information and regulations. Is it the first personal contact with IT that sparked my interest towards programming.",
+      "Hands-on training program covering Tailwind CSS, Next.js, UI/UX, APIs, team projects, and real-world application development.",
+    icon: React.createElement(LuGraduationCap),
+    date: "04/2024 - 09/2024"
+  },
+  {
+    title: "SoftUni JavaScript Track (2021–2023)",
+    location: "Sofia, Bulgaria",
+    description:
+      "Comprehensive JavaScript, front-end and back-end courses covering JS, React, Next.js, and modern web development practices.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2023"
+  },
+  {
+    title: "Intern Manual QA - ePing SPS&TBT Platform",
+    location: "Sofia, Bulgaria",
+    description:
+      "Performed functional and black-box testing, identified UX issues, and created test cases based on Software Requirements Specification.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019"
+    date: "11/2019 - 01/2020"
   },
   {
-    title: "SoftUni",
+    title: "Expert with Control Functions / Reviser - Gresia 2 Ltd",
     location: "Sofia, Bulgaria",
-    description: "Programming with C#",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020"
+    description:
+      "Conducted periodic inventory revisions, managed a small audit team, analyzed results, and prepared detailed operational reports.",
+    icon: React.createElement(CgWorkAlt),
+    date: "12/2015 - 12/2018"
   },
   {
-    title: "SoftUni",
+    title: "Chief Expert - Sofia Branch of the National Health Insurance Fund",
     location: "Sofia, Bulgaria",
-    description: "JS Advanced – September 2021",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021"
-  },
-  {
-    title: "SoftUni",
-    location: "Sofia, Bulgaria",
-    description: "JS Applications - February 2022",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022"
-  },
-  {
-    title: "SoftUni",
-    location: "Sofia, Bulgaria",
-    description: "JS Back-End - May 2022",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022"
-  },
-  {
-    title: "Brad Schiff",
-    location: "udemy.com",
-    description: "React For The Rest Of Us",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022"
-  },
-  {
-    title: "SoftUni",
-    location: "Sofia, Bulgaria",
-    description: "ReactJS - June 2022",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022"
-  },
-  {
-    title: "ByteGrad by Wesley",
-    location: "udemy.com",
-    description: "Professional CSS 2023 (Flexbox & Grid & Animations & More)",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023"
-  },
-  {
-    title: "Brad Traversy",
-    location: "udemy.com",
-    description: "Modern HTML & CSS From The Beginning (Including Sass)",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023"
-  },
-  {
-    title: "DevelopedbyEd",
-    location: "developedbyed.com",
-    description: "The Creative React and Redux Course",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023"
-  },
-  {
-    title: "ByteGrad",
-    location: "bytegrad.com",
-    description: "Professional React & Next.js",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024"
-  },
-  {
-    title: "DevelopedbyEd",
-    location: "developedbyed.com",
-    description: "Ultimate Next.js Course 2024 Edition",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - at present"
-  },
-  {
-    title: "SoftUni",
-    location: "Sofia, Bulgaria",
-    description: "HTML & CSS",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - at present"
-  },
-  {
-    title: "zing7",
-    location: "Sofia, Bulgaria",
-    description: "Full Stack Web Development - summer academy",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - at present"
+    description:
+      "Processed medical, statistical, and financial data, prepared interim and annual reports, and ensured compliance with regulatory standards.",
+    icon: React.createElement(CgWorkAlt),
+    date: "06/2009 - 10/2011"
   }
 ] as const;
 
 export const projectsData = [
   {
+    title: "Echo",
+    description:
+      "AI-powered customer support platform with real-time chat, voice support, and smart knowledge base using embeddings and RAG.",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Convex",
+      "Turborepo",
+      "Clerk"
+    ],
+    imageUrl: echo,
+    url: "https://echo-ai-support-web-omega.vercel.app",
+    githubUrl: "https://github.com/Antonov-S/echo-ai-support"
+  },
+  {
     title: "New Tube",
     description:
       "YouTube clone with custom video player, AI-generated metadata, comment threads, and playlist support.",
-    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Drizzle ORM", "TRPC"],
+    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Drizzle", "tRPC", "Mux"],
     imageUrl: newtube,
     url: "https://new-tube-mu.vercel.app",
     githubUrl: "https://github.com/Antonov-S/youtube-clone-next15"
@@ -158,7 +116,7 @@ export const projectsData = [
   {
     title: "LinkedIn Prototype",
     description:
-      "A prototype focusing on LinkedIn’s essential features: feed, profiles, and connections — built with server components and tRPC.",
+      "A prototype focusing on LinkedIn's essential features: feed, profiles, and connections — built with server components and tRPC.",
     tags: [
       "TypeScript",
       "Next.js",
@@ -182,7 +140,7 @@ export const projectsData = [
   {
     title: "Pokebase",
     description:
-      "Pokémon browser app using PokéAPI. Built during Zing7’s summer training program.",
+      "Pokémon browser app using PokéAPI. Built during Zing7's summer training program.",
     tags: ["TypeScript", "Next.js", "Tailwind CSS"],
     imageUrl: pokebase,
     url: "https://pokebase-task-3-zing7.vercel.app/",
@@ -226,7 +184,7 @@ export const projectsData = [
     title: "rmtDev",
     description:
       "Remote developer job board with filtering, bookmarks, pagination, and persistent local storage.",
-    tags: ["React", "TypeScript", "Next.js", "React-Query", "CSS", "HTML"],
+    tags: ["React", "TypeScript", "Next.js", "React-Query"],
     imageUrl: rmtdevImg,
     url: "https://velvety-sunflower-91c517.netlify.app",
     githubUrl: "https://github.com/Antonov-S/rmtDev-app"
@@ -235,7 +193,7 @@ export const projectsData = [
     title: "CorpComment",
     description:
       "Public feedback app where users can leave company reviews and ratings.",
-    tags: ["React", "Vite", "Zustand", "Radix Icons", "CSS", "HTML"],
+    tags: ["React", "Vite", "Zustand"],
     imageUrl: corpcommentImg,
     url: "https://joyful-biscuit-9a382f.netlify.app",
     githubUrl: "https://github.com/Antonov-S/corp-comment-app"
@@ -244,7 +202,7 @@ export const projectsData = [
     title: "Ignite - Games Library",
     description:
       "Search and explore upcoming games using free API data. Built with Redux and framer-motion.",
-    tags: ["styled-components", "React", "Redux", "framer-motion"],
+    tags: ["React", "styled-components", "Redux", "framer-motion"],
     imageUrl: igniteImg,
     url: "https://capable-chebakia-5d3b72.netlify.app",
     githubUrl: "https://github.com/Antonov-S/ignite-games-library-app"
@@ -253,7 +211,7 @@ export const projectsData = [
     title: "Capture Portfolio",
     description:
       "Interactive portfolio demo with dynamic animations and intersection observers.",
-    tags: ["react-intersection-observer", "React", "styled-components"],
+    tags: ["React", "styled-components"],
     imageUrl: captureImg,
     url: "https://meek-kitten-2638d2.netlify.app",
     githubUrl: "https://github.com/Antonov-S/capture-portofolio-app"
@@ -262,7 +220,7 @@ export const projectsData = [
     title: "Waves Music",
     description:
       "Minimal music player using audio from Chillhop. Features include play, pause, skip, and library.",
-    tags: ["React", "Vite", "uuid", "Font Awesome", "CSS", "HTML"],
+    tags: ["React", "Vite"],
     imageUrl: wavesImg,
     url: "https://earnest-souffle-0e7c4a.netlify.app/",
     githubUrl: "https://github.com/Antonov-S/music-app-react"
@@ -271,7 +229,7 @@ export const projectsData = [
     title: "Word Analytics",
     description:
       "Text analysis tool that shows word and character count. Inspired by wordcounter.net.",
-    tags: ["React", "Vite", "CSS", "HTML"],
+    tags: ["React", "Vite"],
     imageUrl: wordanalyticsImg,
     url: "https://main--glittering-capybara-b697a7.netlify.app",
     githubUrl: "https://github.com/Antonov-S/word-analytics-app"
@@ -280,17 +238,19 @@ export const projectsData = [
 
 export const skillsData = [
   "JavaScript (ES6+)",
+  "Typescript",
   "React.js",
   "Next.js",
-  "Typescript",
   "Prisma",
+  "Drizzle",
+  "Convex",
   "Tailwind CSS",
   "shadcn/ui",
   "Zustand",
   "Redux",
-  "styled components",
-  "Framer Motion",
-  "SCSS",
-  "Axios",
+  "Jotai",
+  "PostgreSQL",
+  "Mongo DB",
+  "SQLite",
   "Git"
 ] as const;

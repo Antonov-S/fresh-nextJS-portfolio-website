@@ -18,30 +18,24 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Finance</span>, I decided to pursue my
-        passion for programming. I enrolled in a Software University and learned{" "}
-        <span className="font-medium">web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          JS, React, Next.js and little bit a Node.js
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">internship or full-time position</span> as
-        a junior developer.
+        As a developer transitioning from the financial sector, I bring a strong
+        analytical mindset and a structured approach to building modern web
+        applications. I have hands-on experience developing full-stack projects
+        with <span className="font-medium">Next.js, React, and TypeScript</span>
+        , focusing on maintainability, performance, and real-world use cases.
       </p>
 
-      {/* <p>
-        <span className="italic">When I'm not coding</span>, I enjoy reading,
-        watching movies, and playing with my cats. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning <span className="font-medium">CSS and NextJS 14</span>.
-      </p> */}
+      <p>
+        Recently, I have built production-ready applications including{" "}
+        <span className="font-medium">Echo</span> (AI-powered customer support
+        platform using embeddings and RAG),{" "}
+        <span className="font-medium">New Tube</span> (YouTube-style platform
+        with tRPC-based data fetching), and{" "}
+        <span className="font-medium">Sprout and Scribble</span> (full-featured
+        e-commerce app with Stripe integration).
+      </p>
     </motion.section>
   );
 }
